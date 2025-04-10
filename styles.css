@@ -1,0 +1,146 @@
+/*drop down btn*/
+.dropbtn {
+    background-color: #f8f5ec;
+    color: black;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f5ec;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #142f18;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: hsl(140, 3%, 79%);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {text-decoration: underline;}
+@media only screen and (max-width: 600px) {
+    #container{
+        background-color: #f8f5ec;
+    }
+    header{
+        background-color:  #142f18; 
+        height: 50px; 
+    }
+    header img{
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: "Playfair-display", serif;
+        color: #edc967;
+        padding-top: 15px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 1.3em;
+       font-weight: bold;
+       color:  #142f18;
+       padding: 10px;
+       text-shadow: 0px 1px 3px #edc967;
+     }
+     
+     nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-weight: 500;
+    }
+    
+    nav a:hover {
+        color: #edc967;
+    }
+    main {
+        background-color: #f8f5ec;
+        /*padding: 1px 20px 20px 20px;*/
+        padding: 25px;
+        
+    }
+    p {
+        text-indent: 17px;
+    }
+    
+    .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+@media only screen and (min-width: 601px) {
+    #container { margin-left: auto;   
+        margin-right: auto;   
+        width: 80%;                
+        box-shadow: 3px 3px 3px #c6b28e; 
+        border-radius: 15px;
+        background-color: #f8f5ec;} 
+    header{
+        background-color:  #142f18;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        
+    }
+    header img{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        height: 150px;
+        width: 100%;
+    }
+    
+     h1 {
+        display: none;}
+        
+     
+    h2 {
+        text-align: center;
+        font-size: 1.8em;
+       font-weight: bold;
+       color:  #142f18;
+       text-shadow: 1px 2px 4px #edc967;
+       padding: 20px;
+     }
+     nav ul {
+        list-style-type: none;
+    }
+    nav {
+        padding: 35px 15px 20px 45px;
+        float: left;
+        width: 200px;
+    }
+    nav li {
+        padding-bottom: 5px;
+        font-weight: 500;
+    }
+    nav a:hover {
+        color: #edc967;
+    }
+    main {
+        background-color: #f8f5ec;
+        margin-left: 200px;
+        padding: 1px 20px 20px 20px;
+        
+    }
+    p {
+        text-indent: 17px;
+    }
+    
+    .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
