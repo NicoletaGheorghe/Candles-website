@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+    <div id="container">
     <header>
-        <h1>Soy & Scent</h1>
+        <img src="Soy & Scent.png" alt="Brand logo">
+        <h1 class="pacifico-regular">Soy & Scent</h1>
     </header>
-    <nav>
+    <nav class="">
         <ul>
             <li>
-                <a href="index.html">About Us</a>
+                <a href="index.html" class="underline">About Us</a>
             </li>
             <li>
-                <a href="products.html">Products</a>
-            </li>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                      <a href="products.html" >Products</a>
+                  </button>
+                  <div class="dropdown-content">
+                      <a href="candles.html">Decorative candles</a>
+                      <a href="christmasCandles.html">Christmas candles</a>
+                  </div>
+                </div>
+              </li>
             <li>
                 <a href="order.html">Order</a>
             </li>
@@ -27,7 +42,7 @@
         </ul>
     </nav>
     <main>
-        <h3>About Us</h3>
+        <h2 class="pacifico-regular">About Us</h2>
         <p>Welcome to <em><b>Soy & Scent</b></em>, where we believe what creating the perfect ambiance should be simple and fun. What started as a hobby has grown into a passion for crafting beautiful, eco-friendly soy wax candles that fill your home with warmth, comfort and a touch of luxury.
         </p>
         <p>At <em><b>Soy & Scent</b></em>, we are all about the experience. From selecting the finest 100% soy wax to carefully blending soothing scents, we handcraft each candle with care, ensuring every detail shines. We started out as hobbyists, experimenting with different scents and styles, and now we're proud to share our creations with you. Whether you are looking for a fresh, invigorating fragrance or a calming, cozy scent, we have something for every mood and moment.</p>
@@ -36,7 +51,7 @@
         <p>Thank you for choosing <em><b>Soy & Scent</b></em>. We are excited to share our love for this hobby turned passion with you and help you create the perfect atmosphere in your home.</p>
     </main>
     <footer>
-        <nav>
+        <div>
             <ul>
                 <li>
                     <a href="index.html">About Us</a>
@@ -52,8 +67,9 @@
                 </li>
                 
             </ul>
-        </nav>
+        </div>
         <p>Copyright &copy; 2025 Nicoleta Gheorghe</p> 
     </footer>
+   </div>
 </body>
 </html>

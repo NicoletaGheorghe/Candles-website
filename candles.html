@@ -3,19 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Decorative Candles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+    <div id="container">
     <header>
-        <h1>Soy & Scent</h1>
+        <img src="Soy & Scent.png" alt="Brand logo">
+        <h1 class="pacifico-regular">Soy & Scent</h1>
     </header>
     <nav>
-        <div>
-            <a href="products.html">Products</a>
-        </div>
+        <ul>
+            <li>
+                <a href="index.html">About Us</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="products.html" class="underline">Products</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="candles.html">Decorative candles</a>
+                    <a href="christmasCandles.html">Christmas candles</a>
+                </div>
+              </div>
+            </li>
+            <li>
+                <a href="order.html">Order</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+            
+        </ul>
     </nav>
    <main> 
-       <h3>Decorative candles</h3>
+       <h2 class="pacifico-regular">Decorative candles</h2>
         <figure>
             <img src="https://images.unsplash.com/photo-1704871776460-c290b5da9729?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Candle in the shape of a woman's bust" width="300" height="300">
             <figcaption>Woman's bust - Vanilla scent</figcaption>
@@ -38,7 +65,7 @@
         </figure>
     </main>
     <footer>
-        <nav>
+        <div>
             <ul>
                 <li>
                     <a href="index.html">About Us</a>
@@ -54,8 +81,9 @@
                 </li>
                 
             </ul>
-        </nav>
+        </div>
         <p>Copyright &copy; 2025 Nicoleta Gheorghe</p> 
     </footer>
+   </div>
 </body>
 </html>
