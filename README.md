@@ -10,7 +10,7 @@ Deployed on GitHub Pages and accessible here: https://nicoletagheorghe.github.io
 
 To run this project on your local machine:
 
-1. Clone the repository:
+ Clone the repository:
   
    git clone <repo-https://github.com/NicoletaGheorghe/Candles-website.git>
    
