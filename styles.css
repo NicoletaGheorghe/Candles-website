@@ -150,7 +150,7 @@ ol {
         width: 90px;
         height: 80px;
     }
-    figure:hover {
+    figure img:hover {
         box-shadow: 0 0 2px 1px #edc967;
     }
     figure {
