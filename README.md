@@ -20,7 +20,9 @@ Launch with Live Server (e.g., using the VSCode Live Server extension).
 
  ---
  Contributing
+ 
 Want to contribute? Awesome!
+
 Here are the steps to follow:
 
 Fork the repository.
@@ -29,14 +31,16 @@ Create a new branch:
 
 
 git checkout -b your-feature-branch
+
 Make your changes and commit them:
 
 
 git commit -m "Add your message here"
+
 Push to your forked repository:
 
-
 git push origin your-feature-branch
+
 Open a Pull Request (PR) with a clear description of your changes.
 
 Thanks for checking out the project! 
