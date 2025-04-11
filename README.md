@@ -13,6 +13,7 @@ To run this project on your local machine:
 1. Clone the repository:
   
    git clone <repo-https://github.com/NicoletaGheorghe/Candles-website.git>
+   
 Open the project folder in your code editor.
 
 Launch with Live Server (e.g., using the VSCode Live Server extension).
