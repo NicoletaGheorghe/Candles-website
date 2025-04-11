@@ -27,6 +27,42 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {text-decoration: underline;}
+/*Order form*/
+#payment {
+    border: 2px solid #edc967;
+    border-radius: 3px;
+}
+#personalise {
+    border: 2px solid #edc967;
+    border-radius: 3px;
+}
+#quantity {
+    width: 50px;
+    border: 2px solid #edc967;
+    border-radius: 3px;
+}
+#email {
+    border: 2px solid #edc967;
+    border-radius: 3px;
+}
+#phone {
+    border: 2px solid #edc967;
+    border-radius: 3px;
+}
+input[type=text]{
+    border: 2px solid #edc967;
+    border-radius: 3px;
+}
+input[type=submit] {
+    background-color: #142f18;
+    border-radius: 4px;
+    color: #edc967;
+    padding: 3px;
+}
+.form {
+   margin-top: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     #container{
         background-color: #f8f5ec;
@@ -53,7 +89,14 @@
        padding: 10px;
        text-shadow: 0px 1px 3px #edc967;
      }
-     
+     h3 {
+        text-indent: 10px;
+        font-size: 1em;
+       font-weight: bold;
+       color:  #142f18;
+       text-shadow: 1px 2px 4px #edc967;
+       padding: 5px;
+     }
      nav ul {
         list-style-type: none;
         display: flex;
@@ -81,10 +124,14 @@
         text-indent: 17px;
     }
     .about img{
+        margin-left: 3px;
         float: right;
         height: 150px;
         width: 200px;
-        padding: 15px 5px 5px 15px;
+        padding: 1px;
+        border: 1px solid #edc967;
+        border-radius: 15px;
+        margin-top: 10px;
       
     }
     .pacifico-regular {
@@ -92,6 +139,23 @@
         font-weight: 400;
         font-style: normal;
       }
+      img {
+        border: 1px solid #edc967;
+        border-radius: 4px;
+        padding: 5px;
+        width: 90px;
+        height: 80px;
+    }
+    figure:hover {
+        box-shadow: 0 0 2px 1px #edc967;
+    }
+    figure {
+        border-radius: 4px;
+    }
+    figcaption {
+        text-align: center;
+        font-size: small;
+    }
 }
 @media only screen and (min-width: 601px) {
     #container { margin-left: auto;   
@@ -101,12 +165,15 @@
         border-radius: 15px;
         background-color: #f8f5ec;} 
     header{
+        
         background-color:  #142f18;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         
     }
-    header img{
+    header .header{
+        border-width: none;
+        padding: 0px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         height: 150px;
@@ -124,6 +191,14 @@
        color:  #142f18;
        text-shadow: 1px 2px 4px #edc967;
        padding: 20px;
+     }
+     h3 {
+        text-indent: 10px;
+        font-size: 1em;
+       font-weight: bold;
+       color:  #142f18;
+       text-shadow: 1px 2px 4px #edc967;
+       padding: 5px;
      }
      nav ul {
         list-style-type: none;
@@ -147,10 +222,14 @@
         
     }
     .about img{
+        margin-left: 5px;
         float: right;  
         height: 300px;
         width: 400px;
-         padding: 15px 5px 5px 15px;
+        padding: 5px;
+        border: 1px solid #edc967;
+        border-radius: 15px;
+        margin-top: 10px;
     }
     hr {
         width: 100px;
@@ -168,4 +247,21 @@
         font-weight: 400;
         font-style: normal;
       }
+      img {
+        border: 1px solid #edc967;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        height: 150px;
+    }
+    figure:hover {
+        box-shadow: 0 0 2px 1px #edc967;
+    }
+    figure {
+        border-radius: 4px;
+    }
+    figcaption {
+        text-align: center;
+        font-size: small;
+    }
 }
