@@ -151,9 +151,10 @@ input[type=submit] {
     }
     figure {
         border-radius: 4px;
+        margin: 5px;
     }
     figcaption {
-        text-align: center;
+        text-align: justify;
         font-size: small;
     }
 }
@@ -254,14 +255,15 @@ input[type=submit] {
         width: 150px;
         height: 150px;
     }
-    figure:hover {
+    figure img:hover {
         box-shadow: 0 0 2px 1px #edc967;
     }
     figure {
         border-radius: 4px;
+        margin: 5px;
     }
     figcaption {
-        text-align: center;
+        text-align: justify;
         font-size: small;
     }
 }
